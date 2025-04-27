@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background color */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark text for readability */
+}
+
+
+header {
+  background-color: #333;  /* Dark background */
+  color: white;             /* White text */
+  text-align: center;       /* Center align text */
+  padding: 20px 0;          /* Padding around the text */
+}
+
+header h1 {
+  font-size: 3rem;          /* Bigger text size for the title */
+  margin: 0;                /* Remove margin */
+}
+
+/* Section and feature card styles */
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto; /* Centers the section */
+}
+
+.feature {
+  background-color: white;  /* White background for cards */
+  border: 1px solid #ddd;   /* Light border */
+  padding: 20px;
+  margin: 10px 0;           /* Space between cards */
+  border-radius: 8px;       /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.feature h2 {
+  font-size: 2rem;           /* Larger heading for each feature */
+  color: #333;               /* Dark color for headings */
+}
+
+
+.feature:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
